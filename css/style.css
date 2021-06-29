@@ -18,8 +18,12 @@
 
 /* Common */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    background-color: pink;
+    /* background-color: #000; */
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
 }
