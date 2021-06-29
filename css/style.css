@@ -73,6 +73,10 @@ header nav li a {
     font-weight: bold;
 }
 
+header nav li a:hover {
+    transform: scale(1.1,1.1);
+}
+
 /* Main */
 
 main .row {
