@@ -1,6 +1,46 @@
+/* Include */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
 /* Normalize */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Common */
+
+body {
+    background-color: pink;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Header */
+
+header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 5px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;    
+}
+
+header nav li a {
+    font-weight: bold;
+    line-height: 40px;
+    padding: 20px;
 }
